@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  div.login-box
+   div.wrap-box
+    div.box
+     h3.welcome.
+      welcome
+     form(method="post" name="loginForm" action="login" autocomplete="off")
+      input(type="text" placeholder="昵称" name="nick" autocomplete="off").nick
+      input(type="password" placeholder="密码" name="pwd" autocomplete="off").pwd
+      //- #err
+       // - if err
+      span(style="color:#f00;display:block;margin:0 auto 10px;text-align:center;")=err?"请检查账户和密码信息":""
+      input(type="submit")=提交
+      //- div.wrap-btn
+      //-  span.commit-btn.
+      //-   提交
+      div.signup
+       a(href="./signUp")
+        span.zhuce 注册>>
+   script(src="./javascripts/login.js")
+

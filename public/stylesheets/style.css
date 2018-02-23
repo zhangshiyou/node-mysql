@@ -1,0 +1,34 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.link{color:#f00;}
+.asdasd{float:left;width:33.33%;}
+.outter:after{content:"";display:block;clear:both;height:0;}
+html,body{height: 100%;}
+.login-box{height:100%;background:linear-gradient(to bottom, #d47a7a 0%,#b97b96 30%,#ff0003 60%, #12ade0 100%);}
+.wrap-box{position:absolute;top:50%;left:50%;padding:10px;box-sizing:border-box;width:300px;background: #fff;min-height:200px;transform: translate(-50%,-50%);border-radius: 10px;}
+.commit-btn{background: #ffa500;color:#fff;padding:5px 15px;border-radius: 2px;}
+.wrap-btn{margin:20px auto 0;text-align: center;}
+.box input{border:1px solid #ddd;box-sizing: border;border-radius: 5px;padding:5px 2px;width:90%;display: block;margin:0 auto;margin-bottom:10px;}
+.box input[type='submit']{background: #ffa500;color:#fff;border:none;}
+.welcome{margin:10px;text-align: center;}
+.signup{text-align:right;cursor: pointer;color:blue;width:90%;margin:0 auto;}
+.zhuce{color:#00B7FF;}
+.wrap-signup{width:800px;margin:0 auto;height:100%;background: #fff;}
+.wrap-list input{display:block;margin:0 auto;width:220px;border:1px solid #ddd;margin-bottom:10px;padding:5px;border-radius: 5px;}
+.wrap-list input[type='submit']{background: #ffa500;color:#fff;border:none;}
+.wrap-list{padding-top:100px;}
+.denglubtn{text-align:right;margin:10px 0;color:#00B7FF;}
+.denglubtn a{color:#00B7FF;}
+.wrap-list{width:200px;margin:0 auto;width:245px;}
+.wrap-signup-o{height:100%;background: #ddd;}
+
+
+.uploadData{background: #ddd;height:100%;}
+.up-load{width:800px;margin:0 auto;background: #fff;height:100%;}
+.upd{text-align: center;padding:10px;font-size:18px;}

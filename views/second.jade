@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div.link.sss 获取数据
+  input(type='text' placeholder="cash").cash
+  input(type='text' placeholder="bank").bank
+  div.link.asd 提交
+  a(href='./getInfo_1') getInfo_1
+  script(src="./javascripts/submit.js")
+  script(src="./javascripts/getInfo.js")

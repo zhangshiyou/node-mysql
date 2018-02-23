@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+  div.uploadData
+   div.up-load
+    h1.upd 导入数据
+    div(style="padding:20px;")
+     form(action="parseExl" method='post' enctype='multipart/form-data')
+      input(type='file' class="bank" name="schoolsName")
+      input(type="submit")=提交
+  script(src="./javascripts/submit.js")
